@@ -1,7 +1,5 @@
 import logo from './logo.svg';
 import './App.css';
-import { SpeedInsights } from "@vercel/speed-insights/react"
-import { Analytics } from "@vercel/analytics/react"
 
 
 function App() {
@@ -20,8 +18,6 @@ function App() {
         >
           Learn React
         </a>
-        <SpeedInsights />
-        <Analytics />
       </header>
     </div>
   );
